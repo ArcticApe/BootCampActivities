@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jdi2jIZukALBurcJrSngAdA/IJSlAk1hZfQuNKpF+suDiW3W8MbbFSfa+F+EKicZ49Mx7SwLBnBpfog5HdfMpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\john.e.castillo\\source\\repos\\Exercises\\Exercise4\\Exercise4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\john.e.castillo\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

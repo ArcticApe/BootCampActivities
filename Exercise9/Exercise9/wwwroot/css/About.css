@@ -1,0 +1,246 @@
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}*/
+.wrap{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://fy2203appdevstoragejec.blob.core.windows.net/image/Image12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    padding: 30px 100px;
+}
+article img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left:40%;
+    
+}
+article img:hover{
+    background-color: #009688;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.20);
+    transition: all 1.5s ease;
+}
+article h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #342f62 50%, #0b2f51 50%, #1d2657 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+    text-align: center;
+}
+article h1:hover{
+    background-position: -100%;
+
+}
+article h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #342f62 50%, #0b2f51 50%, #da3936 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+}
+article h4:hover{
+    background-position: -100%;
+
+}
+blockquote{
+    font-family: Saira Condensed;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+article p{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #cdbc92 50%, #c5a553 50%, #cfa12c 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+}
+article p:hover{
+    background-position: -100%;
+}
+
+
+/*
+.nav-bar{
+    width: 100%;
+    height: 15px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.nav-bar ul li:hover:after{
+width: 100%;
+}*/
+.wrap {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://fy2203appdevstoragejec.blob.core.windows.net/image/Image12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 30px 100px;
+}
+
+article img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 40%;
+}
+
+    article img:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.20);
+        transition: all 1.5s ease;
+    }
+
+article h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #342f62 50%, #0b2f51 50%, #1d2657 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+    text-align: center;
+}
+
+    article h1:hover {
+        background-position: -100%;
+    }
+
+article h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #342f62 50%, #0b2f51 50%, #da3936 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+}
+
+    article h4:hover {
+        background-position: -100%;
+    }
+
+blockquote {
+    font-family: Saira Condensed;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+article p {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #cdbc92 50%, #c5a553 50%, #cfa12c 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+}
+
+    article p:hover {
+        background-position: -100%;
+    }
+.footer{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    /*transform: translateY(0%);*/
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.footer h1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.footer p{
+    font-size: 9px;
+    margin-top: 5px;
+}

@@ -1,0 +1,1047 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-family: 'Cinzel';
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+}
+
+.container{
+    font-size: 5px;
+}
+.nav-link {
+    font-size: 15px;
+}
+
+.create_Link {
+    color: #0366d6 !important;
+    height: 50px;
+}
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.div1 {
+    height: 150px;
+    width: 300px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    
+}
+
+/*----------------------LOG IN FROM DESIGN--------------------------*/
+
+.loginform {
+    margin-right: auto;
+    margin-left: auto;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 500px;
+    background: #EAF5F4;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.075);
+}
+
+
+
+.loginform h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+
+
+.loginform form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+
+
+form .text_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 50px 0;
+}
+
+
+
+.text_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+
+.text_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #4C3E55;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+
+.text_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #009688;
+    transition: 1s;
+}
+
+
+
+.text_field input:focus ~ label,
+.text_field input:valid ~ label {
+    top: -5px;
+    color: #009688;
+    
+}
+
+
+
+.text_field input:focus ~ span::before,
+.text_field input:valid ~ span::before {
+    width: 100%;
+}
+
+
+
+.pass {
+    margin: -5px 0 20px 5px;
+    color: #009688;
+    cursor: pointer;
+}
+
+
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border: 1.50px solid;
+    background: #DA3936;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+input[type="submit"]:hover {
+    border-color: black;
+    transition: .5s;
+    background: rgba(0,0,0,0.75);
+}
+
+/*-------------------Navigation Bar Design-----------------------*/
+.navbar-collapse {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-collapse .navbar-nav .nav-item ::after {
+    content: '';
+    height: 5px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.navbar-collapse .navbar-nav .nav-item :hover:after {
+    width: 100%;
+}
+
+/*------------------Search Bar Design-------------------*/
+.navbar-collapse .navbar-nav .search-icon {
+        height: 40px;
+        width: 240px;
+        display: flex;
+        background: #f2f2f2;
+        border-radius: 5px;
+}
+
+.navbar-collapse .navbar-nav .search-icon input{
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    color: #000;
+    font-size: 15px;
+}
+
+.navbar-collapse .navbar-nav .search-icon .icon{
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #000;
+    border: 1px solid #cccccc; 
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.navbar-collapse .navbar-nav .search-icon .icon:hover{
+    background: red;
+}
+
+.navbar-collapse .navbar-nav .search-icon .icon span{
+    color: #222222;
+    font-size: 18px;
+
+}
+/*-------------------This is for About.Css---------------*/
+.wrap {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://fy2203appdevstoragejec.blob.core.windows.net/image/Image12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 30px 100px;
+}
+
+article img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 40%;
+}
+
+    article img:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.20);
+        transition: all 1.5s ease;
+    }
+
+article h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #342f62 50%, #0b2f51 50%, #1d2657 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+    text-align: center;
+}
+
+    article h1:hover {
+        background-position: -100%;
+    }
+
+article h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #342f62 50%, #0b2f51 50%, #da3936 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+}
+
+    article h4:hover {
+        background-position: -100%;
+    }
+
+blockquote {
+    font-family: Saira Condensed;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+article p {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #cdbc92 50%, #c5a553 50%, #cfa12c 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.50s ease-out;
+}
+
+    article p:hover {
+        background-position: -100%;
+    }
+
+
+/*--------------------------This is for City.CSS----------------------------*/
+.bodyBg_City {
+    background-color: rgb(29,29,28);
+    height: 100vh;
+    width: 100%;
+}
+
+.containerCity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardCity {
+    background: white;
+    width: 220px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 16px
+}
+
+.cardCity:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.20);
+        transition: all 1.5s ease;
+}
+
+.cardCity-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.cardCity h2 {
+    text-align: center;
+}
+
+.cardCity h4 {
+    text-align: center;
+}
+
+.cardCity p {
+    text-align: justify;
+    font-size: 14.5px;
+}
+
+.cardCity li {
+    text-align: center;
+    font-size: 14px;
+}
+
+.cardCity-1 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image15.jpg")
+}
+
+.cardCity-2 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image4.jpg")
+}
+
+.cardCity-3 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image2.jpg")
+}
+
+
+
+
+/*----------------------This is for Dawn CSS----------------------*/
+.bodyBg_Dawn {
+    background-color: rgb(29,29,28);
+    height: 100vh;
+    width: 100%;
+}
+
+.containerDawn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardDawn {
+    background: white;
+    width: 220px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 16px
+}
+
+    .cardDawn:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.20);
+        transition: all 1.5s ease;
+    }
+
+.cardDawn-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.cardDawn h2 {
+    text-align: center;
+}
+
+.cardDawn h4 {
+    text-align: center;
+}
+
+.cardDawn p {
+    text-align: justify;
+    font-size: 14.5px;
+}
+
+.cardDawn li {
+    text-align: center;
+    font-size: 14px;
+}
+
+.cardDawn-1 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image21.jpg")
+}
+
+.cardDawn-2 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image22.jpg")
+}
+
+.cardDawn-3 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image23.jpg")
+}
+
+
+/*------------------------This is for Rise CSS----------------------*/
+.bodyBg_Rise {
+    background-color: rgb(29,29,28);
+    height: 100vh;
+    width: 100%;
+}
+.containerRise {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardRise {
+    background: white;
+    width: 220px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 16px
+}
+
+    .cardRise:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.20);
+        transition: all 1.5s ease;
+    }
+
+.cardRise-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.cardRise h2 {
+    text-align: center;
+}
+
+.cardRise h4 {
+    text-align: center;
+}
+
+.cardRise p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.cardRise li {
+    text-align: center;
+    font-size: 15px;
+}
+
+.cardRise-1 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image18.jpg")
+}
+
+.cardRise-2 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image10.jpg")
+}
+
+.cardRise-3 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image20.jpg")
+}
+
+
+
+
+/*-----------------------------This is of DIVE CSS-----------------------------*/
+.bodyBg_Dive {
+    background-color: rgb(29,29,28);
+    height: 100vh;
+    width: 100%;
+}
+.containerDive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardDive {
+    background: white;
+    width: 220px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 16px
+}
+
+    .cardDive:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.20);
+        transition: all 1.5s ease;
+    }
+
+.cardDive-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.cardDive h2 {
+    text-align: center;
+}
+
+.cardDive h4 {
+    text-align: center;
+}
+
+.cardDive p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.cardDive li {
+    text-align: center;
+    font-size: 14px;
+}
+
+.cardDive-1 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image24.jpg")
+}
+
+.cardDive-2 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image25.jpg")
+}
+
+.cardDive-3 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image26.jpg")
+}
+
+/*----------------------------This is for Home CSS-----------------------------*/
+.carousel-item {
+    height: 500px;
+    width: 100px;
+}
+
+.carousel-item {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 50;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel h5 {
+    text-align: top;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.carousel p {
+    font-size: 18px;
+    top: 2rem;
+    color: #FF0400;
+    font-weight: 1000;
+}
+
+.slider-btn {
+    margin-top: 5px;
+}
+
+    .slider-btn .btn {
+        background-color: #FF0400;
+        color: white;
+        border-radius: 25px;
+        padding: 0.9rem .7rem;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-right: 15px;
+    }
+
+
+/*---------------------This is for HomePage CSS-------------------------*/
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://fy2203appdevstoragejec.blob.core.windows.net/image/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ContentHomePage h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+
+
+.ContentHomePage blockquote {
+    margin: 20px auto;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+}
+
+/*-------------------------------This is for New Releases--------------------------------*/
+
+.bodyBg_NR {
+    background-color: rgb(29,29,28);
+    height: 100vh;
+    width: 100%;
+}
+.container_NR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.card_NR {
+    background: white;
+    width: 250px;
+    height: 620px;
+    margin: 20px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.card_NR:hover {
+        background-color: #009688;
+        color: white;
+        cursor: pointer;
+        transform: scale(0.90);
+        transition: all 1.5s ease;
+}
+
+.card_NR-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.card_NR h2 {
+    text-align: center;
+}
+
+.card_NR h4 {
+    text-align: center;
+}
+
+.card_NR p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card_NR li {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card_NR-1 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image3.jpg")
+}
+
+.container_NR-btn {
+    background-color: #FF0400;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+
+
+/*-----------------------------This is for Signature Collections Css-----------------------------*/
+.bodyBg_SC {
+    background-color: rgb(29,29,28);
+    height: 100vh;
+    width: 100%;
+}
+
+.containerSignatureCollections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.card_Rise {
+    background: white;
+    width: 250px;
+    height: 620px;
+    margin: 40px;
+    border-radius: 16px
+}
+
+.card_Dawn {
+    background: white;
+    width: 250px;
+    height: 620px;
+    margin: 40px;
+    border-radius: 16px
+}
+
+.card_Dive {
+    background: white;
+    width: 250px;
+    height: 620px;
+    margin: 40px;
+    border-radius: 16px
+}
+
+.card_Rise:hover {
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: all 1.5s ease;
+}
+
+.card_Dawn:hover {
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: all 1.5s ease;
+}
+
+.card_Dive:hover {
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: all 1.5s ease;
+}
+
+.card_Rise-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.card_Dawn-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.card_Dive-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+
+.card_Rise h2 {
+    text-align: center;
+}
+
+.card_Rise h4 {
+    text-align: center;
+}
+
+.card_Rise p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card_Rise li {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.card_Dawn h2 {
+    text-align: center;
+}
+
+.card_Dawn h4 {
+    text-align: center;
+}
+
+.card_Dawn p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card_Dawn li {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.card_Dive h2 {
+    text-align: center;
+}
+
+.card_Dive h4 {
+    text-align: center;
+}
+
+.card_Dive p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card_Dive li {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card_Rise-1 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image11.jpg")
+}
+
+.card_Dawn-2 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image13.jpg")
+}
+
+.card_Dive-3 {
+    background-image: url("https://fy2203appdevstoragejec.blob.core.windows.net/image/Image14.jpg")
+}
+
+.container_Rise-btn {
+    background-color: #FF0400;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+.container_Dawn-btn {
+    background-color: #FF0400;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+.container_Dive-btn {
+    background-color: #FF0400;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+/*    bottom: -100%;*/
+    transform: translateY(200%);
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*------------------------Table Design----------------------------*/
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+}
+
+table, th, tr, td {
+    border: 1px solid;
+}
+
+
+/*.footer {
+    width: 100%;
+    position: absolute;
+    margin: 0;*/
+/*transform: translateY(0%);*/
+/*text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+    .footer h1 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .footer p {
+        font-size: 9px;
+        margin-top: 5px;
+    }*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 20px; 
+  text-align:center;
+}

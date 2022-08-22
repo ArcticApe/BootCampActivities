@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    background: rgb(29,29,28);
+}
+.logo{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    cursor:pointer
+}
+
+.nav-bar{
+    width: 100%;
+    height: 15px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav-bar ul li:hover:after{
+width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 320px;
+    height: 470px;
+    margin: 40px;
+    border-radius: 16px
+}
+
+.card:hover{
+    background-color: #009688;
+    color:white;
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: all 1.5s ease;
+}
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+.card h2 {
+    text-align: center;
+}
+.card h4{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    font-size: 14px;
+}
+.card li{
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-1 {
+    background-image: url("Image11.jpg")
+}
+
+.card-2 {
+    background-image: url("Image13.jpg")
+}
+.card-3 {
+    background-image: url("Image14.jpg")
+}
+
+.container-btn{
+    background-color: #FF0400;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    transform: translateY(10%);
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.footer h1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.footer p{
+    font-size: 9px;
+    margin-top: 5px;
+}
